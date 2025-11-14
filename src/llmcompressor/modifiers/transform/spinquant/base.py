@@ -37,7 +37,7 @@ class SpinQuantModifier(Modifier, use_enum_values=True):
     with learned rotations" (https://arxiv.org/abs/2405.16406)
 
     Transforms (rotations) are extra layers added to a model which reduce the accuracy
-    loss induced by quantization. This is achived through "rotating" weights and
+    loss induced by quantization. This is achieved through "rotating" weights and
     activations into a space with a smaller dynamic range of values, thus decreasing
     the range of scales required for quantization.
 
